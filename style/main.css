@@ -8,13 +8,17 @@
   --highlight: #b58900;
 }
 
+html {
+  background-color: var(--background);
+}
+
 body {
   background-color: var(--background);
   font-family: sans;
   color: var(--primary-text);
   max-width: 850px;
   text-align: center;
-  margin: 0;
+  margin: 0 auto;
 }
 
 h1, a{
@@ -28,7 +32,7 @@ a:active {
 
 footer {
   background-color: var(--background-highlight);
-  width: 100%;
+  width: 850px;
   position: absolute;
   bottom: 0;
 }
