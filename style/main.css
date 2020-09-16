@@ -1,0 +1,21 @@
+/* The color variables, default is dark solarized */
+:root {
+  --background: #002b36;
+  --background-highlight: #073642;
+  --primary-text:  #839496;
+  --secondary-text: #586e75;
+  --emphasized-text: #93a1a1;
+  --highlight: #b58900;
+}
+
+body {
+  background-color: var(--background);
+  font-family: sans;
+  color: var(--primary-text);
+  max-width: 850px;
+  text-align: center;
+}
+
+h1 {
+  color: var(--highlight);
+}
